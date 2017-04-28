@@ -5,6 +5,9 @@ class bilinter
 {
 public:
 	bilinter();
+	bilinter(double y_, double y1_, double y2_, double x_, double x1_, double x2_, 
+			 double fq11_, double fq12_, double fq21_, double fq22_);
+
 	~bilinter();
 
 public:

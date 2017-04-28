@@ -20,6 +20,21 @@ bilinter::bilinter()
 	std::cout << "fq22: "; std::cin >> fq22;
 }
 
+bilinter::bilinter(double y_, double y1_, double y2_, double x_, double x1_, double x2_,
+				   double fq11_, double fq12_, double fq21_, double fq22_) {
+	y = y_;
+	y1 = y1_;
+	y2 = y2_;
+
+	x = x_;
+	x1 = x1_;
+	x2 = x2_;
+
+	fq11 = fq11_;
+	fq12 = fq12_;
+	fq21 = fq21_;
+	fq22 = fq22_;
+}
 
 bilinter::~bilinter()
 {
